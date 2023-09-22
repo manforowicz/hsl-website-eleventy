@@ -1,0 +1,54 @@
+---
+layout: base.njk
+title: Husky Satellite
+heading: The Husky Satellite Lab is taking the University of Washington to space
+---
+
+<p class="subtitle" style="max-width: 410px;">
+    Inspiring future scientists and engineers, advancing space exploration at the UW, and fostering student space research.
+</p>
+<img id="landing-hero-image" src="img/huskysat-1-hero.png">
+<p id="landing-hero-caption">HuskySat-1 deployed from the ISS<br>into LEO on January 31, 2020.</p>
+<h1>About Us</h1>
+<p class="tagline">Our mission is to foster interdisciplinary student participation in space systems research, to inspire and train future space scientists and engineers, and to advance spacecraft capabilities at UW.</p>
+<p class="tagline">We are composed primarily of UW undergraduate and graduate students, as well as mentors from the local aerospace industry.</p>
+<p class="tagline">Our faculty advisor is Alvar Saenz-Otero.</p>
+<p class="contact-p"> Check out our <a href="https://newsletter.huskysat.org" class="inline-link">newsletter</a> ⟶</p>
+
+<h1>
+    <a href="/sponsors" class="inline-link">Sponsors</a>
+</h1>
+
+<div class="flex-container" style="max-width: 1350px;">
+    {% for sponsor in sponsors %}
+        <a class="card" href="{{ sponsor.url }}">
+            <div class="card-image-container card-top">
+                <img src="/{{ sponsor.image }}" width="200px" height="200px"></div>
+            <h4>{{ sponsor.name }}</h4>
+        </a>
+    {% endfor %}
+</div>
+
+<h1>
+    <a href="/team" class="inline-link">Our Team</a>
+</h1>
+
+<div class="flex-container" style="max-width: 1350;">
+    <a class="card" href="/missions">
+        <div class="card-image-container card-top">
+            <img src="img/all-missions-lab-picture.jpg" width="400px" height="400px"></div>
+        <h3>Missions</h3>
+    </a>
+    <a class="card" href="/join">
+        <div class="card-image-container card-top">
+            <img src="img/getting-involved-team-picture.png" width="400px" height="400px"></div>
+        <h3>Getting Involved</h3>
+    </a>
+    <a class="card" href="/team">
+        <div class="card-image-container card-top">
+            <img src="img/meet-the-team-cubesat-picture.jpg" width="400px" height="400px"></div>
+        <h3>Meet the Team</h3>
+    </a>
+</div>
+<h1>Questions?</h1>
+<p class="contact-p">Contact us at <a href="mailto:cubesat@uw.edu" class="email-link">cubesat@uw.edu</a> ⟶</p>

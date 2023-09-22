@@ -1,0 +1,148 @@
+/* https://www.washington.edu/brand/graphic-elements/primary-color-palette/ */
+/* UW purple: 4b2e83 */
+/* UW gold: b7a57a <- use this one*/
+/* UW gold (web): e8e3d3 */
+/* UW metallic gold: 85754d */
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #eee;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+  margin: 5px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px;
+}
+
+.mission-description {
+  max-width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 15px;
+  outline: 1px #4b2e83 solid;
+  background-color: #4b2e83;
+  color: #fff;
+  text-decoration: none;
+  transition-duration: 150ms;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle {
+  text-align: center;
+  z-index: -6;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.contact-p {
+  text-align: center;
+  font-size: 22px;
+}
+
+p {
+  margin: 10px;
+}
+
+
+#landing-hero-image {
+  margin-top: -80px;
+  margin-bottom: -60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 80%;
+  align-self: center;
+}
+
+#landing-hero-caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: -45px;
+}
+
+
+.tagline {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.inline-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.inline-link:hover {
+  color: #b7a57a;
+  text-decoration: underline;
+}
+
+
+.email-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.email-link:hover {
+  color: #b7a57a;
+  text-decoration: underline;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -180px;
+  visibility: hidden;
+}

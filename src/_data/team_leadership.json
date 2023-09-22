@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Marc Alwan",
+        "roles": "Treasurer<br>Advertising Lead<br>Reaction Wheels and Magnetorquers",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Marcin Anforowicz",
+        "roles": "Webmaster<br>Magnetorquers & Reaction Wheels",
+        "image": "marcin-anforowicz.jpg",
+        "link": "https://www.linkedin.com/in/marcin-anforowicz-8b79b7232/"
+    },
+    {
+        "name": "Alexander Billesberger",
+        "roles": "Mechanical Lead<br>Mechanical & Systems Engineer",
+        "image": "member-nopic.png",
+        "link": "https://www.linkedin.com/in/alexander-billesberger"
+    },
+    {
+        "name": "Ellie Brosius",
+        "roles": "Electrical Lead<br>Reaction Wheels",
+        "image": "ellie-brosius.png",
+        "link": "https://www.linkedin.com/in/eleanor-brosius-a36616225"
+    },
+    {
+        "name": "Karen Haining",
+        "roles": "Recruiter<br>Training Lead<br>Software Dev",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Aileen Laubach",
+        "roles": "Secretary<br>Structures",
+        "image": "member-nopic.png",
+        "link": "https://www.linkedin.com/in/aileen-laubach/"
+    },
+    {
+        "name": "Bryan Mortimore",
+        "roles": "Chief Engineer<br>Structures Lead",
+        "image": "member-nopic.png",
+        "link": "http://www.linkedin.com/in/bryan-mortimore"
+    },
+    {
+        "name": "Tri Nguyen",
+        "roles": "Project Manager<br>Systems Engineer<br>Star/Earth Tracker",
+        "image": "tri-nguyen.jpg",
+        "link": "https://www.linkedin.com/in/trivnguyen"
+    },
+    {
+        "name": "Alnis Smidchens",
+        "roles": "President",
+        "image": "alnis-smidchens.jpg",
+        "link": "https://www.alnis.dev"
+    },
+    {
+        "name": "Edward Zhang",
+        "roles": "Vice President<br>Software Lead<br>Star/Earth Tracker",
+        "image": "edward-zhang.jpg",
+        "link": "https://www.linkedin.com/in/zeddie888/"
+    }
+]

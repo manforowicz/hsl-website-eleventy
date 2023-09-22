@@ -1,0 +1,54 @@
+---
+layout: base.njk
+title: HuskySat Team
+heading: Meet the Husky Satellite Lab Team
+---
+
+{% macro human_grid(people) %}
+    {% for person in people %}
+        {% if person.link %}
+            <a href="{{ member.link }}" target="_blank" rel="noopener" class="card" style="max-width: 200px; margin: 5px;">
+            {% else %}
+                <div class="card" style="max-width: 200px; margin: 5px;">
+                {% endif %}
+                <img width=200px height=200px class="team-member-photo" src="/img/members/{{ person.image }}">
+                <h4 style="text-align: left;">{{ person.name }}</h4>
+                <p>{{ person.roles | safe }}</p>
+
+                {% if person.link %}
+                </a>
+            {% else %}
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+<p class="subtitle" style="width: 380px">Our team is composed primarily of UW students of
+        all backgrounds and levels of experience, as well as
+        mentors from the local aerospace industry.</p>
+
+<h2>Leadership</h2>
+
+<div class="flex-container" style="max-width: 1000px;">
+    {{ human_grid(team_leadership) }}
+</div>
+
+<h2>Members</h2>
+
+<div class="flex-container" style="max-width: 1000px;">
+    {{ human_grid(team_members) }}
+</div>
+
+<h2>Alumni</h2>
+
+
+<div class="card" style="max-width: 400px; margin: auto;">
+    <img src="/img/members/winglee.jpg" style="max-width: 400px;">
+    <h4 style="text-align: left">Professor Robert Winglee</h4>
+    <p>Faculty Advisor & Principal Investigator</p>
+</div>
+
+
+<div class="flex-container" style="max-width: 1200px;">
+    {{ human_grid(team_alumni) }}
+</div>

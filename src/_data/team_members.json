@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Srushti Adesara",
+        "roles": "Star Tracker",
+        "image": "srushti-adesara.jpg",
+        "link": "https://www.linkedin.com/in/srushti-adesara-3844b3191/"
+    },
+    {
+        "name": "Sara Anders-McDowell",
+        "roles": "Propulsion",
+        "image": "sara-anders-mcdowell.jpg",
+        "link": "https://www.linkedin.com/in/sara-anders/"
+    },
+    {
+        "name": "Rushav Dash",
+        "roles": "Power Distribution Member",
+        "image": "member-nopic.png",
+        "link": "https://www.linkedin.com/in/rushav-dash/"
+    },
+    {
+        "name": "Manasi Ganti",
+        "roles": "Comms",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Marcial Romero Gomez",
+        "roles": "Propulsion",
+        "image": "marcial-gomez.jpeg",
+        "link": "https://www.linkedin.com/in/marcial-romero-gomez-574ab5249"
+    },
+    {
+        "name": "Evelyn Goodman",
+        "roles": "Software",
+        "image": "evelyn-goodman.png",
+        "link": "https://www.linkedin.com/in/evelyngoodman/"
+    },
+    {
+        "name": "Peter Hale",
+        "roles": "Reaction Wheels",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Walker Holmquist",
+        "roles": "Solar Panels Engineer",
+        "image": "walker-holmquist.jpg",
+        "link": "https://www.linkedin.com/in/walker-holmquist"
+    },
+    {
+        "name": "William Jackson",
+        "roles": "Solar panels lead",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Brad Keen",
+        "roles": "Propulsion",
+        "image": "member-nopic.png",
+        "link": "https://www.linkedin.com/in/brad-keen/"
+    },
+    {
+        "name": "Semin Kim",
+        "roles": "Earth Tracker Software",
+        "image": "member-nopic.png",
+        "link": "https://www.linkedin.com/in/se-min-kim-308406209/"
+    },
+    {
+        "name": "William Lacrampe",
+        "roles": "Propulsion, Structures",
+        "image": "member-nopic.png",
+        "link": "https://www.linkedin.com/in/william-lacrampe/"
+    },
+    {
+        "name": "Charles Nguyen",
+        "roles": "Reaction Wheels Member",
+        "image": "charles-nguyen.jpg",
+        "link": "https://www.linkedin.com/in/charles-d-nguyen/"
+    },
+    {
+        "name": "Ronan Nopp",
+        "roles": "",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Adam Olsen",
+        "roles": "Mechanical",
+        "image": "adam-olsen.jpg"
+    },
+    {
+        "name": "Karuna Petwe",
+        "roles": "Earth Tracker",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Mark Polyakov",
+        "roles": "Star Tracker",
+        "image": "mark-polyakov.png",
+        "link": "https://markasoftware.com"
+    },
+    {
+        "name": "Arathy Rengith",
+        "roles": "Structures",
+        "image": "member-nopic.png",
+        "link": "https://www.linkedin.com/in/arathy-rengith-b9762b1b9/"
+    },
+    {
+        "name": "Ryan Welch",
+        "roles": "Reaction Wheels Lead",
+        "image": "member-nopic.png"
+    },
+    {
+        "name": "Rohan Simon Shanthanu",
+        "roles": "Star Tracker member",
+        "image": "rohan-shanthanu.jpg"
+    },
+    {
+        "name": "Mitsuki Shimomura",
+        "roles": "Propulsion",
+        "image": "mitsuki-shimomura.jpg",
+        "link": "https://www.linkedin.com/in/mitsuki-shimomura-a891481b2/"
+    },
+    {
+        "name": "Brandon Yang",
+        "roles": "Earth Tracker",
+        "image": "member-nopic.png"
+    }
+]
