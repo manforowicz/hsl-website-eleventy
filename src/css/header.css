@@ -2,18 +2,15 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
-    overflow: hidden;
 }
 
 #navbar {
-    display: flex;
     width: 100%;
     background-color: #eee;
     transition: background-color 200ms, box-shadow 200ms;
-    border-bottom: 1px solid #eee;
     font-weight: 600; 
     color: #333;
-    align-items: center;
+    text-align: center;
 }
 
 .navbar-scrolled {
@@ -21,25 +18,31 @@ header {
     box-shadow: 0 4px 12px 0px #00000006;
 }
 
-#navbar a:not(.button, #navbar-logo) {
+#navbar > .header-link {
+    display: inline-block;
     text-decoration: none;
-    padding: 20px 10px;
+    padding: 25px 10px;
     color: #333;
 }
 
-#navbar-join-us {
-    margin-left: auto;
-}
-
-#navbar-logo {
-    padding: 5px;
-    margin-right: auto;
-}
-
-#navbar a:hover {
+#navbar > .header-link:hover {
     color: #B7A57A;
 }
 
-#navbar img:hover {
+#navbar-join-us {
+    float: right;
+    margin: 15px;
+}
+
+#navbar-logo {
+    float: left;
+    margin: 4px;
+}
+
+#nabar-logo {
+    max-width: 100%;
+}
+
+#navbar-logo:hover {
     filter: invert(1) brightness(50%) sepia(100%);
 }

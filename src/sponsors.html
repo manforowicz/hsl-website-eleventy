@@ -8,13 +8,7 @@ heading: Husky Satellite Lab Sponsors
 <p class="tagline">We are 100% student run, and in an effort to stay as independent as possible, we are always looking for funding from outside sources.</p>
 
 <div class="flex-container" style="max-width: 800px;">
-    {% for sponsor in sponsors %}
-        <a class="card" href="{{ sponsor.url }}">
-            <div class="card-image-container card-top">
-                <img src="/{{ sponsor.image }}" width="200px"></div>
-            <h4>{{ sponsor.name }}</h4>
-        </a>
-    {% endfor %}
+    {% render "sponsor_grid.html" sponsors: sponsors %}
 </div>
 
 <h1>

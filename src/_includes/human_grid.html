@@ -1,0 +1,15 @@
+{%- for person in people -%}
+{%- if person.link -%}
+<a href="{{ member.link }}" target="_blank" rel="noopener" class="card small-text" style="max-width: 200px; margin: 5px;">
+    {% else %}
+    <div class="card small-text" style="max-width: 200px; margin: 5px;">
+        {% endif %}
+        <img width=200px height=200px class="team-member-photo" src="/img/members/{{ person.image }}">
+        <h4 style="text-align: left;">{{ person.name }}</h4>
+        <p>{{ person.roles }}</p>
+        {% if person.link %}
+</a>
+{%- else -%}
+</div>
+{%- endif -%}
+{%- endfor -%}

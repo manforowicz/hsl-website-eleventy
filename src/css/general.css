@@ -43,6 +43,14 @@ h4 {
   margin: 10px;
 }
 
+img {
+  display: block;
+}
+
+.small-text {
+  font-size: 15px;
+}
+
 .mission-description {
   max-width: 600px;
   margin-left: 20px;
@@ -51,7 +59,7 @@ h4 {
 
 .button {
   padding: 10px 20px;
-  margin: 15px;
+  margin: 1px;
   outline: 1px #4b2e83 solid;
   background-color: #4b2e83;
   color: #fff;
@@ -63,6 +71,7 @@ h4 {
 
 .button:hover {
   background-color: #fff;
+  color: #4b2e83;
 }
 
 .flex-container {

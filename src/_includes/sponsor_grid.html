@@ -1,0 +1,7 @@
+{% for sponsor in sponsors %}
+<a class="card small-text" href="{{ sponsor.url }}">
+    <div class="card-image-container">
+        <img src="/{{ sponsor.image }}" width="200px"></div>
+    <h4>{{ sponsor.name }}</h4>
+</a>
+{% endfor %}
